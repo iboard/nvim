@@ -60,7 +60,8 @@ return packer.startup(function(use)
   use "folke/which-key.nvim"
 
   -- Colorschemes
-  -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
+  use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
+  use "ellisonleao/gruvbox.nvim" -- The missing colorscheme
   use "lunarvim/darkplus.nvim"
 
   -- cmp plugins
@@ -80,6 +81,8 @@ return packer.startup(function(use)
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
   use "tamago324/nlsp-settings.nvim" -- language server settings defined in json for
   use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
+  -- Elixir
+  use "elixir-lsp/elixir-ls" -- support Elixir-LS
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"

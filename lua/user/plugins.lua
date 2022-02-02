@@ -83,6 +83,7 @@ return packer.startup(function(use)
   use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
   -- Elixir
   use "elixir-lsp/elixir-ls" -- support Elixir-LS
+  use "elixir-editors/vim-elixir"
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"

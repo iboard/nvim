@@ -3,14 +3,13 @@ vim.cmd "set foldmethod=syntax"
 vim.cmd "set foldlevel=4"
 vim.cmd "set norelativenumber"
 vim.cmd "set number"
-vim.cmd "colorscheme darkplus"
 
 
-if vim.fn.has('macunix') then
-  print("On MacOS")
-elseif vim.fn.has('linux') then
-  print("On Linux")
-end
+-- if vim.fn.has('macunix') then
+--   print("On MacOS")
+-- elseif vim.fn.has('linux') then
+--   print("On Linux")
+-- end
 
 
 -- Set my local keybindings
